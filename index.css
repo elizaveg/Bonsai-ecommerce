@@ -206,3 +206,8 @@ button:not(.search-button):not(.carousel-control-next):not(.carousel-control-pre
   font-size: medium;
   padding: inherit;
 }
+.img-responsive {
+  max-height:300px;
+  object-fit: cover;
+  object-position: center center;
+}
