@@ -90,7 +90,7 @@ async function getDetails() {
   var str = "";
   str += `
       <div class="details-content">
-          <div class="item-img box">
+          <div class="item-img" style="width: 100%; height: auto">
             <img src="${curentItem.photo}"/><br />
           </div>
           <div class="text-details box">
