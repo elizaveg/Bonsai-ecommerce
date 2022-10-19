@@ -40,7 +40,7 @@ async function getData() {
             <a href="details.html?id=${i}">
                <div class="items">
                 <div class="item-img">
-                   <img src="${data.photo}"/>
+                   <img class="img-responsive" src="${data.photo}"/>
                 </div>
                 <h3 class="itemName">${data.itemName}</h3>
                 <div>${data.price} €</div><br />
